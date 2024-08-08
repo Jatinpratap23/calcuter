@@ -1,3 +1,12 @@
+.papa{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .img{
     height: 225px;
     background-repeat: no-repeat;
@@ -5,21 +14,25 @@
     width: 300px;
     opacity: 0.6;
     background-color: black;
-    position: absolute;
     border-radius: 8px;
     border:2px solid black;
 }
+.child{
+    position: relative;
+
+}
+
 .padding-bottom{
     padding-bottom: 3px;
 }
 .padding-left{
-    padding-left: 3px;
+    padding-left: 9px;
 }
 
 .input{
-    margin-top: 8px;
+    
     margin-bottom: 7px;
-    position: relative;
+
     border: none;
     background-color:  #053463d2;
     border-radius: 9px;
@@ -29,13 +42,20 @@
     margin-left: 2px;
     width: 250px;
 }
+.all{
+    position: absolute;
+    top: 19px;
+}
+.older{
+    width: 100%;
+}
 .one{
     border: none;
     border-radius: 5px;
     padding: 9px 20px 7px 20px;
     margin-right: 5px;
     color: whitesmoke;
-    background-color: rgb(41, 41, 41);
+    background-color: rgba(41, 41, 41, 0.361);
 }
 .oneD{
     border: none;
@@ -43,7 +63,7 @@
     padding: 12px 20px 12px 20px;
     margin-right: 5px;
     color: whitesmoke;
-    background-color:red;
+    background-color:rgba(255, 0, 0, 0.326);
 }
 .oneq{
     padding: 9px 48px 8px 45px;
@@ -51,7 +71,7 @@
     border-radius: 13px;
     margin-right: 5px;
     color: whitesmoke;
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.336);
 }
 .onef{
     border: none;
@@ -59,5 +79,5 @@
     padding: 9px 20px 8px 20px;
     margin-right: 5px;
     color: whitesmoke;
-    background-color:red;
+    background-color:rgba(255, 0, 0, 0.385);
 }
