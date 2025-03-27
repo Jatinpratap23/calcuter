@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cl</title>
+    <script src="script.js" defer></script>`
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,32 +19,32 @@
             </div>
             <div class="older">
                 <div class="buttonS padding-bottom">
-                    <button class="one" onclick="calculate()">1</button>
-                    <button class="one"onclick="calculate()">2</button>
-                    <button class="one" onclick="calculate()">3</button>
-                    <button class="oneD" onclick="calculate()">*</button>
-                    <button class="oneD" onclick="calculate()">/</button>
+                    <button class="one" >1</button>
+                    <button class="one">2</button>
+                    <button class="one" >3</button>
+                    <button class="oneD" >*</button>
+                    <button class="oneD" >/</button>
 
                 </div>
                 <div class="buttonsB padding-bottom">
-                    <button class="one"onclick="calculate()">4</button>
-                    <button class="one"onclick="calculate()">5</button>
-                    <button class="one"onclick="calculate()">6</button>
-                    <button class="oneD"onclick="calculate()">+</button>
-                    <button class="oneD"onclick="calculate()">-</button>
+                    <button class="one">4</button>
+                    <button class="one">5</button>
+                    <button class="one">6</button>
+                    <button class="oneD">+</button>
+                    <button class="oneD">-</button>
                 </div>
                 <div class="buttonsC padding-bottom">
-                    <button class="one"onclick="calculate()">7</button>
-                    <button class="one"onclick="calculate()">8</button>
-                    <button class="one"onclick="calculate()">9</button>
-                    <button class="oneD"onclick="calculate()">D</button>
-                    <button class="oneD"onclick="calculate()">.</button>
+                    <button class="one">7</button>
+                    <button class="one">8</button>
+                    <button class="one">9</button>
+                    <button class="oneD">D</button>
+                    <button class="oneD">.</button>
                 </div>
                 <div class="buttonsD padding-bottom">
-                    <button class="one"onclick="calculate()">0</button>
-                    <button class="onef"onclick="calculate()">B</button>
-                    <button class="one"onclick="calculate()">c</button>
-                    <button class="oneq"onclick="calculate()">=</button>
+                    <button class="one">0</button>
+                    <button class="onef">B</button>
+                    <button class="one">c</button>
+                    <button class="oneq">=</button>
                 </div>
                 <div class="result"></div>
         </div>
@@ -52,3 +53,32 @@
     </div>
 </body>
 </html>
+
+
+
+<div class="d-flex justify-content-between relative mt-20 align-items-center">
+    <input
+      type="text"
+      class="input w-100 search-input fs-14 fs-12-xxl border-0 fs-11-xl"
+      placeholder="Search here..."
+    />
+    <div
+      class="search-icon-container absolute d-flex justify-content-center align-items-center h-100 "
+    >
+      <button><img src="assets/images/search-icon.svg" class="w-18px-xl h-17px-xl w-20px-xxl h-19px-xxl" alt="" /></button>
+    
+    </div>
+    <div class="d-flex">
+      <button class="green-button fs-14 fs-12-xxl fs-11-xl fw-400 h-30px ">Search</button>
+    </div>
+  </div>
+
+  <div class="mt-30 bg-white br-8">
+    <div class="header d-flex align-items-center gap-10 px-20 py-20 ">
+      <div class="d-flex  align-items-center ">
+        <img src="assets/images/most-popular.svg" class="w-45px-xl h-42px-xl w-48px-xxl h-45px-xxl " alt="" />
+        <span class=" fs-30 fs-22-xl fs-24-xxl fw-500">Most Popular Downloads</span>
+      </div>
+    </div>
+    <div class="container pt-18-xxl pt-30"></div>
+  </div>
